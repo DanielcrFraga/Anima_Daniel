@@ -576,6 +576,262 @@
             }
         }
     </style >
+    
+<!-- MODO CLARO E ESCURO AUTOMÁTICO DA ÂNIMA -->
+<style>
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        color-scheme: dark;
+        --cor-primaria: #9BBF91;
+        --cor-primaria-escura: #B4D0A9;
+        --cor-secundaria: #D4A373;
+        --cor-secundaria-escura: #E0B88E;
+        --cor-texto: #E5E5E0;
+        --cor-fundo: #171B18;
+        --cor-branca: #222923;
+        --sombra-suave: 0 18px 40px rgba(0,0,0,.25);
+    }
+
+    body {
+        background: var(--cor-fundo);
+        color: var(--cor-texto);
+    }
+
+    .navbar {
+        background: rgba(30,37,31,.97) !important;
+    }
+
+    .nav-link {
+        color: #E5E5E0 !important;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .hero-section {
+        background: linear-gradient(135deg,#171B18,#252C25,#202A21);
+    }
+
+    .hero-title,
+    .section-title {
+        color: #B4D0A9;
+    }
+
+    .hero-slogan,
+    .section-subtitle {
+        color: #D0D3CC;
+    }
+
+    .eyebrow {
+        background: rgba(155,191,145,.13);
+        color: #B4D0A9;
+    }
+
+    .hero-list span {
+        background: #252D26;
+        color: #E5E5E0;
+        border-color: rgba(155,191,145,.2);
+    }
+
+    .hero-card,
+    .hero-badge {
+        background: #252D27;
+        border-color: rgba(155,191,145,.2);
+    }
+
+    .hero-badge span {
+        color: #E5E5E0;
+    }
+
+    .stat-card {
+        background: #222923;
+        border-color: rgba(155,191,145,.15);
+    }
+
+    .stat-card span {
+        color: #D6D8D2;
+    }
+
+    .sobre-section,
+    .faq-section {
+        background: #1D241F;
+    }
+
+    .servicos-section {
+        background: linear-gradient(180deg,#202820,#171D19);
+    }
+
+    .contato-section {
+        background: linear-gradient(180deg,#1D241F,#202A22);
+    }
+
+    .sobre-section p,
+    .faq-section p {
+        color: #D0D3CC;
+    }
+
+    .missao-box {
+        background: rgba(155,191,145,.09);
+        border-left-color: #9BBF91;
+    }
+
+    .missao-box h4 {
+        color: #B4D0A9;
+    }
+
+    .benefit-box {
+        background: #252D27;
+        border-color: rgba(155,191,145,.15);
+    }
+
+    .benefit-box h5 {
+        color: #E5E5E0;
+    }
+
+    .benefit-box p {
+        color: #B7BDB5;
+    }
+
+    .card-servico {
+        background: #252D27;
+    }
+
+    .card-servico:hover {
+        background: #2B352D;
+    }
+
+    .card-title {
+        color: #E5E5E0;
+    }
+
+    .card-text {
+        color: #B7BDB5;
+    }
+
+    .saiba-mais-txt {
+        color: #B4D0A9;
+    }
+
+    .acreditacao-section {
+        background: linear-gradient(135deg,#54724D,#354C35);
+        color: white;
+    }
+
+    .accordion-item {
+        background: #252D27;
+        border-color: rgba(155,191,145,.15);
+    }
+
+    .accordion-button {
+        background: #252D27;
+        color: #E5E5E0;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background: #303B32;
+        color: #B4D0A9;
+    }
+
+    .accordion-button::after {
+        filter: invert(1);
+    }
+
+    .accordion-body {
+        background: #222923;
+        color: #D0D3CC;
+    }
+
+    .form-label {
+        color: #E5E5E0;
+    }
+
+    .form-control {
+        background: #252D27;
+        border-color: rgba(155,191,145,.25);
+        color: white;
+    }
+
+    .form-control::placeholder {
+        color: #A0A99F;
+    }
+
+    .form-control:focus {
+        background: #2B352D;
+        color: white;
+        border-color: #9BBF91;
+        box-shadow: 0 0 0 .2rem rgba(155,191,145,.15);
+    }
+
+    .contato-item {
+        background: #252D27;
+        border-color: rgba(155,191,145,.15);
+    }
+
+    .contato-item h5 {
+        color: #E5E5E0;
+    }
+
+    .contato-item a,
+    .contato-item span {
+        color: #C5CBC2;
+    }
+
+    .btn-custom-outline {
+        color: #B4D0A9;
+        border-color: #9BBF91;
+    }
+
+    .btn-custom-outline:hover {
+        background: rgba(155,191,145,.12);
+        color: white;
+    }
+
+    .modal-content {
+        background: #252D27;
+        color: #E5E5E0;
+        border-color: rgba(155,191,145,.2);
+    }
+
+    .modal-header,
+    .modal-footer {
+        border-color: rgba(255,255,255,.1);
+    }
+
+    .modal-title {
+        color: #B4D0A9 !important;
+    }
+
+    .modal-body {
+        color: #D0D3CC;
+    }
+
+    .btn-close {
+        filter: invert(1);
+    }
+
+    .btn-secondary {
+        background: #414B43;
+        border-color: #414B43;
+    }
+
+    footer {
+        background: #111512;
+        color: #D0D3CC;
+    }
+
+    footer .text-muted {
+        color: #9DA69C !important;
+    }
+
+    ::selection {
+        background: #6B8E62;
+        color: white;
+    }
+}
+</style>
+
 </head>
 <body>
 
@@ -1002,3 +1258,6 @@
     </script>
 </body>
 </html>
+
+
+
